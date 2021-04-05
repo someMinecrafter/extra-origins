@@ -1,26 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "extraorigins",
+  "id": "scalemodifiers",
   "version": "${version}",
-  "name": "Extra Origins",
-  "description": "Adds more origins to the Origins mod",
+  "name": "Scale Modifiers",
+  "description": "Adds more scale modifiers to the Origins mod.",
   "authors": [
-	"MoriyaShiine"
+	"MoriyaShiine",
+	"someMinecrafter"
   ],
   "contact": {
-	"homepage": "https://www.curseforge.com/minecraft/mc-mods/extra-origins",
-	"sources": "https://github.com/MoriyaShiine/extra-origins"
+	"homepage": "https://github.com/someMinecrafter/scale-modifiers",
+	"sources": "https://github.com/someMinecrafter/scale-modifiers"
   },
   "license": "GPL-3.0",
-  "icon": "assets/extraorigins/icon.png",
+  "icon": "assets/scalemodifiers/icon.png",
   "environment": "*",
   "entrypoints": {
 	"main": [
-	  "moriyashiine.extraorigins.common.ExtraOrigins"
+	  "someminecrafter.scalemodifiers.common.ScaleModifiers"
 	]
   },
   "mixins": [
-	"extraorigins.mixins.json"
+	"scalemodifiers.mixins.json"
   ],
   "depends": {
 	"fabricloader": ">=0.11.0",
